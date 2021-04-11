@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "718848950148",
+    "project_id": "hr-app-f0c6a",
+    "storage_bucket": "hr-app-f0c6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718848950148:android:f735f2882418b93aa3e7d1",
+        "android_client_info": {
+          "package_name": "com.titkul.hr_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718848950148-tjkv8fboom91pc3un6mrm0gonp8soo7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfmhfi13fdNlilRxXhLs74ks454b6j4eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718848950148-tjkv8fboom91pc3un6mrm0gonp8soo7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

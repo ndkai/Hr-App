@@ -1,0 +1,81 @@
+name: fai_kul
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Service locator
+  get_it: ^3.1.0
+  # Bloc for state management
+  flutter_bloc: ^3.0.0
+  flutter_rating_bar: ^3.2.0+1
+  # Value equality
+  equatable: ^1.0.1
+  # Functional programming thingies
+  dartz: ^0.8.9
+  # Remote API
+  data_connection_checker: ^0.3.4
+  http: ^0.12.0+4
+  # Local cache
+  shared_preferences: ^0.5.6
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  #firebase ml
+  firebase_ml_vision: ^0.6.0+2
+  flutter_svg: ^0.19.1
+  camera: ^0.5.8+7
+  #location
+  location: ^3.0.0
+  #image_convert
+  image: ^2.1.4
+  path:  
+  cached_network_image: ^2.2.0
+  flutter_datetime_picker: ^1.4.0
+  carousel_slider: ^2.3.1
+  #signalR
+  signalr_core: ^1.0.5
+  signalr_client: ^0.1.6
+  logging: ^0.11.4
+  #face
+  path_provider: ^1.6.11
+  tflite_flutter: ^0.4.1
+  #url launch
+  url_launcher: ^5.4.2
+  #notify
+  flutter_local_notifications: ^1.4.4+1
+  #forefround service
+  foreground_service: ^2.0.1+1
+  flutter_foreground_plugin: ^0.6.0
+  google_maps_flutter: ^1.0.6
+  #progress bar
+  percent_indicator: ^2.1.8
+  #calender
+  date_format: ^1.0.9
+  syncfusion_flutter_calendar: ^18.3.50
+  #dialog
+  flutter_custom_dialog: ^1.0.20
+  intl: ">=0.14.0"
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+# Foinformation on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/mobilefacenet.tflite
